@@ -1,0 +1,383 @@
+id: table1
+type: widget
+subtype: TableWidget2
+template:
+  ordered:
+    - selectedRowKey: null
+    - _nextAfterCursor: ''
+    - _columnBackgroundColor:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - _defaultSort: null
+    - _clearChangesetOnSave: true
+    - heightType: fixed
+    - disableEdits: false
+    - _rowHeight: small
+    - _columnIds:
+        - 6d678
+        - c86e6
+        - a7ff0
+        - '71e35'
+        - f9037
+        - 183b4
+    - _isSaving: false
+    - _actionIds: []
+    - _clearChangeset: false
+    - caseSensitiveFiltering: false
+    - _limitOffsetRowCount: null
+    - selectedSourceRow: null
+    - _dynamicColumnsEnabled: false
+    - disableSave: false
+    - _columnEditableOptions:
+        ordered:
+          - 6d678:
+              ordered: []
+          - c86e6:
+              ordered: []
+          - a7ff0:
+              ordered:
+                - showStepper: true
+          - '71e35':
+              ordered: []
+          - f9037:
+              ordered: []
+          - 183b4:
+              ordered: []
+    - _toolbarPosition: bottom
+    - _groupByColumns: []
+    - _toolbarButtonLabel:
+        ordered:
+          - 1a: Filter
+          - 3c: Download
+          - 4d: Refresh
+    - _nextBeforeCursor: ''
+    - _persistRowSelection: false
+    - _toolbarButtonIcon:
+        ordered:
+          - 1a: bold/interface-text-formatting-filter-2
+          - 3c: bold/interface-download-button-2
+          - 4d: bold/interface-arrows-round-left
+    - changesetArray:
+        array: []
+    - _toolbarButtonType:
+        ordered:
+          - 1a: filter
+          - 3c: custom
+          - 4d: custom
+    - _columnOptionList:
+        ordered:
+          - 6d678:
+              ordered: []
+          - c86e6:
+              ordered: []
+          - a7ff0:
+              ordered: []
+          - '71e35':
+              ordered: []
+          - f9037:
+              ordered: []
+          - 183b4:
+              ordered: []
+    - _columnValueOverride:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - marginType: normal
+    - _showBorder: true
+    - _templatePageSize: null
+    - _dynamicColumnProperties:
+        ordered: []
+    - _showHeader: true
+    - _currentPage: 0
+    - _columnKey:
+        ordered:
+          - 6d678: server
+          - c86e6: date
+          - a7ff0: content-length
+          - '71e35': connection
+          - f9037: x-powered-by
+          - 183b4: strict-transport-security
+    - hidden: false
+    - _toolbarButtonIds:
+        - 1a
+        - 3c
+        - 4d
+    - data: '{{ query1.data.metadata.headers }}'
+    - _cellSelection: none
+    - _serverPaginated: false
+    - _linkedFilterId: null
+    - searchMode: fuzzy
+    - _columnCellTooltip:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - _columnFormat:
+        ordered:
+          - 6d678: string
+          - c86e6: string
+          - a7ff0: decimal
+          - '71e35': string
+          - f9037: string
+          - 183b4: string
+    - _cursorCache:
+        object: {}
+    - _calculatedPageSize: null
+    - _primaryKeyColumnId: ''
+    - selectedDataIndex: null
+    - _columnAlignment:
+        ordered:
+          - 6d678: left
+          - c86e6: left
+          - a7ff0: right
+          - '71e35': left
+          - f9037: left
+          - 183b4: left
+    - _actionIcon:
+        ordered: []
+    - _columnTooltip:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - _columnIcon:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - _columnCellTooltipMode:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - _pageSize: null
+    - showInEditor: false
+    - selectedSourceRows:
+        array: []
+    - _enableExpandableRows: false
+    - _selectMultipleRowsOnActionClick: 'no'
+    - _columnSortDisabled:
+        ordered:
+          - 6d678: false
+          - c86e6: false
+          - a7ff0: false
+          - '71e35': false
+          - f9037: false
+          - 183b4: false
+    - _showSummaryRow: false
+    - filterStack: null
+    - _expandedRows: null
+    - changesetObject: null
+    - _actionDisabled:
+        ordered: []
+    - _columnReferenceId:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - _dynamicColumnSource:
+        array: []
+    - _rowSelection: single
+    - _columnCaption:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - _dynamicColumnFormatOptions:
+        ordered: []
+    - _dynamicRowHeights: false
+    - _columnFormatOptions:
+        ordered:
+          - 6d678:
+              ordered: []
+          - c86e6:
+              ordered: []
+          - a7ff0:
+              ordered:
+                - showSeparators: true
+                - notation: standard
+          - '71e35':
+              ordered: []
+          - f9037:
+              ordered: []
+          - 183b4:
+              ordered: []
+    - _changeset: null
+    - _afterCursor: ''
+    - selectedRowKeys:
+        array: []
+    - _beforeCursor: ''
+    - _columnSummaryAggregationMode:
+        ordered:
+          - 6d678: none
+          - c86e6: none
+          - a7ff0: none
+          - '71e35': none
+          - f9037: none
+          - 183b4: none
+    - searchTerm: ''
+    - selectedRows:
+        array: []
+    - _disabledVirtualization: false
+    - _showColumnBorders: false
+    - _columnStatusIndicatorOptions:
+        ordered:
+          - 6d678:
+              ordered: []
+          - c86e6:
+              ordered: []
+          - a7ff0:
+              ordered: []
+          - '71e35':
+              ordered: []
+          - f9037:
+              ordered: []
+          - 183b4:
+              ordered: []
+    - _columnSize:
+        ordered:
+          - 6d678: 100
+          - c86e6: 100
+          - a7ff0: 100
+          - '71e35': 100
+          - f9037: 100
+          - 183b4: 100
+    - _serverPaginationType: limitOffsetBased
+    - _selectSingleRowsOnActionClick: replace
+    - _showFooter: true
+    - _groupedColumnConfig:
+        ordered: []
+    - _virtualizeStartIndex: 0
+    - _toolbarButtonHidden:
+        ordered:
+          - 1a: ''
+          - 3c: ''
+          - 4d: ''
+    - _defaultFilters:
+        ordered: []
+    - events:
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: exportData
+            - pluginId: table1
+            - targetId: 3c
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: refresh
+            - pluginId: table1
+            - targetId: 4d
+    - _columnEditable:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - pagination: null
+    - selectedDataIndexes:
+        array: []
+    - _columnGroupAggregationMode:
+        ordered:
+          - 6d678: none
+          - c86e6: none
+          - a7ff0: sum
+          - '71e35': none
+          - f9037: none
+          - 183b4: none
+    - sortArray:
+        array: []
+    - _selectedCell: null
+    - overflowType: scroll
+    - selectedCell: null
+    - _defaultSelectedRow:
+        ordered:
+          - mode: index
+          - indexType: display
+          - index: 0
+    - _hasNextPage: false
+    - _includeRowInChangesetArray: false
+    - _columnPosition:
+        ordered:
+          - 6d678: center
+          - c86e6: center
+          - a7ff0: center
+          - '71e35': center
+          - f9037: center
+          - 183b4: center
+    - _enableSaveActions: true
+    - _columnPlaceholder:
+        ordered:
+          - 6d678: Enter value
+          - c86e6: Enter value
+          - a7ff0: Enter value
+          - '71e35': Enter value
+          - f9037: Enter value
+          - 183b4: Enter value
+    - _defaultFilterOperator: and
+    - _actionLabel:
+        ordered: []
+    - _virtualizeEndIndex: 0
+    - selectedRow: null
+    - _actionHidden:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+    - _columnHidden:
+        ordered:
+          - 6d678: ''
+          - c86e6: ''
+          - a7ff0: ''
+          - '71e35': ''
+          - f9037: ''
+          - 183b4: ''
+    - _columnLabel:
+        ordered:
+          - 6d678: Server
+          - c86e6: Date
+          - a7ff0: Content length
+          - '71e35': Connection
+          - f9037: X powered by
+          - 183b4: Strict transport security
+    - _showToolbar: true
+style:
+  ordered: []
+position2:
+  position2:
+    row: 1.4
+    col: 1
+    height: 8
+    width: 8
+createdAt: 2023-08-30T16:07:50.105Z

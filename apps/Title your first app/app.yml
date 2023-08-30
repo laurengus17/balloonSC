@@ -1,0 +1,12 @@
+version: 43.0.9
+pageUuid: 0fdd5192-2b37-11ee-b94b-075be52cd112
+appTemplate:
+  experimentalFeatures:
+    object:
+      sourceControlTemplateDehydration: false
+  experimentalPerfFeatures:
+    object:
+      serverDepGraphEnabled: false
+      useRuntimeV2: false
+      runtimeV2OptOut: false
+  version: 3.8.4
